@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="container">
+        <img src="images/logo.png">
+        <h2 class="center">Start collecting</h2>
+        <form>
+            <input type="text" placeholder="Your name" id="name1">
+            <div class="error" id="text_error"></div>
+
+            <input type="email" placeholder="Email" id="mail">
+            <div class="error" id="email_error"></div>
+
+            <input type="password" placeholder="Password" id="pass" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+            <div class="error" id="password_error"></div>
+
+            <button onclick="" type="button" id="btn"> Sign up </button>
+        </form>
+        <div class="terms">
+            <p>By clicking on 'Sing up' above, you are agreeing to the
+                <br><a href="">Terms of Service</a> and <a href="">Privacy Policy</a></p>
+        </div>
+        <hr class="hrc">
+        <div class="linki">
+            <div class="link" id="link" onclick="">
+                <p id="conver"><a href=#>Sing up with Facebook, Twitter, Google or VK</a></p>
+            </div>
+            <div class="link2" id="link2">
+                <ul>
+                    <li><img src="images/facebook.svg"></li>
+                    <li><img src="images/twitter.svg"></li>
+                    <li><img src="images/google.svg"></li>
+                    <li><img src="images/vk.svg"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <hr class="hrf">
+
+    <footer>
+        <ul class="center">
+            <li><a href=#> Reset password </a></li>
+            <li> x <a href=#> Log in </a></li>
+            <li> x <a href=#> Help </a></li>
+        </ul>
+    </footer>
+
+
+    <script src="script_org.js"></script>
+</body>
+
+</html>
